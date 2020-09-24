@@ -1,9 +1,19 @@
+import java.util.Scanner;
 class abc
 {
 public static void main(String args[])
 {
-System.out.println("Hello World"); 
-System.out.println("What's up people"); 
-System.out.println(" hkjkgkfhd "); 
+int n,c, fact = 1;
+System.out.println("Enter a number");
+Scanner sct = new Scanner(System.in);
+n = sct.nextInt();
+if ( n < 0 )
+System.out.println("Number should be non-negative.");
+else
+{
+for ( c = 1 ; c <= n ; c++ )  // Calculating Factorial
+fact = fact*c;
+System.out.println("Factorial of "+n+" is = "+fact);
+}
 }
 }
