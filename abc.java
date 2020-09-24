@@ -14,6 +14,7 @@ else
 for ( c = 1 ; c <= n ; c++ )  // Calculating Factorial
 fact = fact*c;
 System.out.println("Factorial of "+n+" is = "+fact);
+System.out.println("added changes");
 }
 }
 }
